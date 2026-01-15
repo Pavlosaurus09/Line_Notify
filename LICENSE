@@ -1,71 +1,20 @@
+MIT License
+
 Copyright (c) 2026 Line
 
-All rights reserved.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, subject to the following conditions:
 
-This software is a FiveM resource developed and owned by Line.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
----
-
-## Usage Rights
-
-Permission is granted to use this software on FiveM servers **only if**:
-- The user has obtained a valid license through Tebex.
-- The resource is downloaded via the official FiveM Keymaster platform.
-- The license is valid for the specific server license key.
-
-This license grants the right to:
-- Install and run the resource on one (1) licensed FiveM server.
-- Modify configuration files for personal server use only.
-
----
-
-## Restrictions
-
-You are NOT allowed to:
-- Redistribute, resell, or share this resource in any form.
-- Upload this resource or parts of it to other websites, repositories, or marketplaces.
-- Decrypt, reverse engineer, or bypass the FiveM Asset Escrow system.
-- Claim this resource as your own work.
-- Share access to the resource with third parties.
-
-UI files (HTML, CSS, JS) are provided as-is and may be visible by design.
-They do NOT grant permission to reuse or redistribute the code.
-
----
-
-## Asset Protection
-
-This resource uses **FiveM Asset Escrow** via **Keymaster**.
-Core Lua logic is encrypted and bound to the server license key.
-Any attempt to bypass licensing or escrow protection is strictly prohibited.
-
----
-
-## Support
-
-Support is provided only to verified customers.
-When requesting support, you must provide:
-- Proof of purchase
-- Your server license key
-- A clear description of the issue
-
-Support is offered via the official Discord server.
-
----
-
-## Termination
-
-This license will terminate automatically if:
-- Any terms of this license are violated.
-- The license is revoked by the author or Tebex.
-- Unauthorized distribution or modification is detected.
-
-Upon termination, you must immediately remove the resource from your server.
-
----
-
-## Disclaimer
-
-This software is provided "as is", without warranty of any kind.
-The author is not responsible for any damages, data loss, or server issues
-resulting from the use or misuse of this resource.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

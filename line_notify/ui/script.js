@@ -47,7 +47,7 @@ function renderNotify(data) {
         <div class="content">
             <div class="title">${data.title}</div>
             <div class="message">${data.message}</div>
-            <div class="time" data-time="${createdAt}">právě teď</div>
+            <div class="time" data-time="${createdAt}">right now</div>
         </div>
     `
     list.prepend(h)
@@ -85,11 +85,11 @@ setInterval(() => {
 }, 1000)
 
 function formatTime(sec) {
-    if (sec < 5) return 'právě teď'
-    if (sec < 60) return `před ${sec} sekundami`
+    if (sec < 5) return 'right now'
+    if (sec < 60) return `before ${sec} seconds`
     const min = Math.floor(sec / 60)
-    if (min < 60) return `před ${min} minutami`
-    return `před ${Math.floor(min / 60)} hodinami`
+    if (min < 60) return `before ${min} minutes`
+    return `before ${Math.floor(min / 60)} hours`
 }
 
 

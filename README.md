@@ -32,6 +32,16 @@ No framework dependencies required.
 
 ---
 
+## 📦 Exports
+exports['line_notify']:Notify({
+    type = 'success', -- success/error/info/warning --
+    title = 'success',
+    message = 'Payment was successful.',
+    duration = 4000
+})
+
+---
+
 ## ⚙️ Installation
 1. Download
 2. Place the `line_notify` folder into your `resources` directory

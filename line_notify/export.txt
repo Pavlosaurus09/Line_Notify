@@ -1,0 +1,6 @@
+exports['line_notify']:Notify({
+    type = 'success', -- success/error/info/warning --
+    title = 'Success',
+    message = 'Payment was successful.',
+    duration = 4000
+})

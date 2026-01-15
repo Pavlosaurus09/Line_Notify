@@ -22,6 +22,6 @@ The resource is designed to be simple to integrate, performance-friendly, and co
 ---
 
 ## ⚙️ Installation
-1. Download the asset from Keymaster
+1. Download the asset 
 2. Place the `line_notify` resource into your `resources` folder
 3. Add the following line to your `server.cfg`:

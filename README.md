@@ -1,3 +1,6 @@
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/c76bd7fe-dda4-490d-804c-53748568d3c6" />
+
+--
 # Line Notify System
 
 Line Notify System is a simple and modern notification system for FiveM servers.

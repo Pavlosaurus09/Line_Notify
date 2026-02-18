@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Notify UI</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="live" class="pos-right-top"></div>
+
+    <div id="history">
+        <h1>NOTIFICATION HISTORY</h1>
+        <span>Session based</span>
+
+        <div class="actions">
+            <button onclick="clearAll()">CLEAR ALL</button>
+            <button onclick="openSettings()">SETTINGS</button>
+            <button onclick="closeMenu()">CLOSE</button>
+        </div>
+
+        <div id="list"></div>
+    </div>
+
+    <div id="settings">
+        <h1>SETTINGS</h1>
+        <span>Customize your notifications</span>
+
+        <div class="settings-group">
+            <div class="setting" onclick="togglePause()" id="pauseToggle">
+                Pause Feed
+            </div>
+            <div class="setting" onclick="toggleSound()" id="soundToggle">
+                🔊 Sound Enable / Disable
+            </div>
+            <div class="setting-title">📍 Position</div>
+            <div class="setting position" onclick="setPosition('right-top')" id="pos-right-top">
+                Right Top
+            </div>
+            <div class="setting position" onclick="setPosition('left-top')" id="pos-left-top">
+                Left Top
+            </div>
+            <div class="setting position" onclick="setPosition('center-left')" id="pos-center-left">
+                Center Left
+            </div>
+            <div class="setting position" onclick="setPosition('center-right')" id="pos-center-right">
+                Center Right
+            </div>
+            <div class="setting reset" onclick="resetSettings()">
+                🔄 Reset to Default
+            </div>
+            <div class="setting back" onclick="closeSettings()">
+                ← Back
+            </div>
+        </div>
+    </div>
+    <audio id="notifySound" preload="auto"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>

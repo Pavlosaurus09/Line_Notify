@@ -1,6 +1,4 @@
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/c76bd7fe-dda4-490d-804c-53748568d3c6" />
-
---
+---
 # Line Notify System
 
 Line Notify System is a simple and modern notification system for FiveM servers.
@@ -10,22 +8,32 @@ This project is **free to use** and designed to be easy to integrate into any Fi
 
 ---
 
-## ✨ Features
-- Modern NUI notifications
-- Notification history menu
-- Lightweight and optimized
-- Simple export-based usage
-- Clean and minimal UI
-- Easy integration into any script
+✨ Features
+
+- Modern NUI-based notifications
+- Notification history menu (default key: F10)
+- Built-in Settings panel
+- Pause Feed toggle
+- Sound Enable / Disable toggle
+- 4 Position modes (Right Top, Left Top, Center Left, Center Right)
+- Reset to default settings
+- LocalStorage-based settings saving
+- Anti-spam sound protection
+- Notification progress bar animation
+- Server-side trigger support
+- Client export API
+- Broadcast support (notify all players)
+- Optimized client-side performance
+- Framework-agnostic (ESX / QBCore / Qbox / Standalone)
 
 ---
 ## ✨ Planned Features
-- Sounds
-- Position
+- Sounds -Done-
+- Position -Done-
+- Database -Done-
 - Theme
 - Visual Theme
 - New Color
-- Database  
 ---
 
 ## 📦 Requirements
@@ -35,9 +43,25 @@ No framework dependencies required.
 
 ---
 
-## 📦 Exports
+## 📦 Exports Client
 
-<img width="448" height="114" alt="image" src="https://github.com/user-attachments/assets/db3c4f7a-937f-420b-b811-4bd635af30e1" />
+exports['line_notify']:Notify({
+    title = "Client",
+    message = "Client notify test",
+    type = "info",
+    duration = 3000
+})
+
+---
+
+## 📦 Exports Server
+
+TriggerEvent('line_notify:notify', source, {
+    title = "Server",
+    message = "Server notify test",
+    type = "success",
+    duration = 4000
+})
 
 ---
 
@@ -51,6 +75,11 @@ No framework dependencies required.
 <img width="358" height="382" alt="image" src="https://github.com/user-attachments/assets/b34f41d4-c3c4-4125-b6d8-4b4547efbbc3" />
 
 ## ⚙️ History Menu
-<img width="417" height="571" alt="image" src="https://github.com/user-attachments/assets/b9c38d01-a272-41c0-aa8e-f662eface690" />
+<img width="414" height="771" alt="image" src="https://github.com/user-attachments/assets/c715d967-107e-4cad-95aa-54fef3bcb1cd" />
+
+## ⚙️ Settings Menu
+<img width="412" height="658" alt="image" src="https://github.com/user-attachments/assets/b04fc5f9-16ae-41e2-811a-234233fe3c61" />
+
+
 
 

@@ -56,7 +56,7 @@ exports['line_notify']:Notify({
 
 ## 📦 Exports Server
 
-TriggerEvent('line_notify:notify', source, {
+TriggerClientEvent('line_notify:notify', source, {
     title = "Server",
     message = "Server notify test",
     type = "success",

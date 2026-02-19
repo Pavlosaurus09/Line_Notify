@@ -1,0 +1,23 @@
+-- Player Notify
+TriggerClientEvent('line_notify:notify', source, {
+    title = "Server",
+    message = "Server notify test",
+    type = "success",
+    duration = 4000
+})
+
+-- All Players
+TriggerClientEvent('line_notify:notify', -1, {
+    title = "Announcement",
+    message = "Server restart in 5 minutes",
+    type = "warning",
+    duration = 5000
+})
+
+--Cleint export--
+exports['line_notify']:Notify({
+    title = "Client",
+    message = "Client notify test",
+    type = "info",
+    duration = 3000
+})
